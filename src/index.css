@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html, body {
+    @apply font-jost
+}
+.main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.rainy-background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./assets/images/rain_3.jpg);
+    
+
+}
+
+.cloudy-background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./assets/images/cloudy_2.jpeg);
+   
+}
+.thunderstorm-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./assets/images/thunderstom.jpg);
+}
+.sunny-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./assets/images/sunny.jpg);
+}

@@ -60,7 +60,7 @@ const Home = () => {
         <h1 className="text-white text-[15px] font-bold">Weather-wiz</h1>
         {data ? (
           <div className="text-white lg:flex items-center lg:-4 w-full text-center lg:text-start mt-[20px] lg:mt-0 lg:gap-5">
-            <h1 className="text-5xl font-bold"> {data.main.temp}&deg;</h1>
+            <h1 className="text-5xl font-bold"> {data.main.temp_min}&deg;</h1>
             <div className="flex flex-col gap-2">
               <h1 className="text-2xl font-bold">{data.name}</h1>
               <h1 className="lg:text-lg text-sm font-bold">

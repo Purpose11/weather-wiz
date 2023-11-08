@@ -80,7 +80,7 @@ const WeatherInfo = () => {
                 />
                 <div className="flex flex-col items-center">
                   <h1 className="text-white lg:text-5xl text-3xl font-bold">
-                    {data.main.temp}&deg;
+                    {data.main.temp_min}&deg;
                   </h1>
                   <h1 className="text-white text-sm mt-1">
                     {data.weather[0].main}
